@@ -11,7 +11,7 @@ public class Network extends JFrame
     private static final long serialVersionUID = 2629602729724555623L;
 
     public static final int WIDTH = 800;
-    public static final int HEIGHT = 800;
+    public static final int HEIGHT = 600;
 
     private ArrayList<Link> links;
     private ArrayList<Agent> agents;

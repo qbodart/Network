@@ -32,6 +32,7 @@ public class ControlPanel extends JPanel
 			{
 				Agent a = new Agent(30);
 				//this is another comment
+				//Yet another comment for committing
 				a.setX(Network.getInstance().getWidth() / 2);
 				a.setY(Network.getInstance().getHeight() / 2);
 				Network.getInstance().addAgent(a);
