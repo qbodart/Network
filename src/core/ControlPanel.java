@@ -30,7 +30,7 @@ public class ControlPanel extends JPanel
 		{
 			public void actionPerformed(ActionEvent arg0) 
 			{
-				Agent a = new Agent(3);
+				Agent a = new Agent(30);
 				a.setX(Network.getInstance().getWidth() / 2);
 				a.setY(Network.getInstance().getHeight() / 2);
 				Network.getInstance().addAgent(a);
