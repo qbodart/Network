@@ -81,7 +81,7 @@ public class Network extends JFrame
 	    }
 	    a.setD((int) (weight / 2)); 
 	}
-	AgentsOrganiser organiser = new StarOrganiser();
+	AgentsOrganiser organiser = new RandomOrganiser();
 	organiser.organise(agents);
 	viewPanel.repaint();
 	this.repaint();
